@@ -17,7 +17,7 @@ This Terraform module creates structured Kubernetes for digitalocean resources w
 Example:Basic
 ```hcl
 module "Kubernetes_cluster" {
-  source             = "git::https://github.com/opsstation/terraform-digitalocean-kubernete.git?ref=v1.0.0"
+  source             = "git::https://github.com/sohanyadav/terraform-digitalocean-kubernete.git?ref=v1.0.0"
   name               = local.name
   environment        = local.environment
   region             = local.region
@@ -47,7 +47,7 @@ module "Kubernetes_cluster" {
 Example:complete
 ```hcl
 module "Kubernetes_cluster" {
-  source             = "git::https://github.com/opsstation/terraform-digitalocean-kubernete.git?ref=v1.0.0"
+  source             = "git::https://github.com/sohanyadav/terraform-digitalocean-kubernete.git?ref=v1.0.0"
   name               = local.name
   environment        = local.environment
   region             = local.region
@@ -111,16 +111,16 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples:Basic
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-Kubernetes/tree/master/_example/basic)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/sohanyadav/terraform-digitalocean-Kubernetes/tree/master/_example/basic)' directory within this repository.
 # Examples:complete
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-Kubernetes/tree/master/_example/complete)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/sohanyadav/terraform-digitalocean-Kubernetes/tree/master/_example/complete)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-Kubernetes/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sohanyadav/terraform-digitalocean-Kubernetes/blob/master/LICENSE) file for details.
 
 
 
@@ -142,7 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-digitalocean-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/sohanyadav/terraform-digitalocean-labels.git | v1.0.0 |
 
 ## Resources
 

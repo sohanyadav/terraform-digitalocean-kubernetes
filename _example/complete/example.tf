@@ -13,7 +13,7 @@ locals {
 ####################################################################################
 
 module "vpc" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-vpc.git?ref=v1.0.0"
+  source      = "git::https://github.com/sohanyadav/terraform-digitalocean-vpc.git?ref=v1.0.0"
   name        = "test-network"
   environment = "test"
   label_order = ["name", "environment"]
